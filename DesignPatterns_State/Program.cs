@@ -6,7 +6,14 @@ namespace DesignPatterns_State
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Context test = new Context();
+
+            Console.WriteLine(test.GetString());
+            Console.WriteLine(test.GetString());
+            Console.WriteLine(test.GetNumber());
+            Console.WriteLine(test.GetNumber());
+
+            Console.ReadKey();
         }
     }
 }
